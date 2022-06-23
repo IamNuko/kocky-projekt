@@ -1,0 +1,155 @@
+ul {
+  list-style-type: none;
+  margin: 10;
+  padding: 10;
+  overflow: hidden;
+  background-color: rgb(10, 10, 10);
+  opacity: 0.8;  
+  backdrop-filter: blur(4px);
+}
+
+li {
+  float: left;
+}
+
+.p{
+float: right;
+padding: 18px 16px;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  
+  text-decoration: none;
+}
+
+
+main {
+  display: block;
+  width: 65%;
+  min-height: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  opacity: 1;
+}
+body{
+
+ background-color: rgb(218, 218, 218);
+}
+
+
+.bt{
+  text-align: center;
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
+}
+.header {
+  height: 600px;
+  padding-top: 260px;
+  font-size: 80px;
+  color: white;
+  margin: 0;
+}
+.bg-custom1 {
+    background-color: #141414;
+}
+
+.logo{
+  width: auto;
+  height: 60px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.logo:hover{
+  width: auto;
+  height: 60px;
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+p {
+  font-size: 2vw;
+  margin: 1%;
+  padding: 1%;
+  
+}
+
+.KB{
+  display: block;
+  max-width: 50%;
+  height: auto;
+}
+.footer{
+    bottom: 0;
+    margin: 0 auto !important;
+    text-align: center !important;
+    width: 100% !important;
+    height: 40px;
+    position: absolute;
+}
+
+#nadpis{
+font-size: 4vw;
+}
+#p1{
+  font-size: 1.25vw;
+}
+
+
+.video {
+  position: static;
+  width: 100% !important;
+  min-height: 700px;
+}
+.arrow{
+  padding-top: 920px;
+  padding-left: 49%;
+  opacity: 0.5;
+}
+.arrow:hover{
+  opacity: 1;
+}
+.bg{
+  background-image: url("IMAGES/kocicka.jpg");
+ height: 1000px;
+ min-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.text{
+  text-align: center;
+  position: absolute;
+  top: 18%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+h1{
+  font-weight: bold;
+  margin: 1%;
+  padding-top: 1%;
+  font-size: 300%;
+}
+.bc{
+  background-image: url(IMAGES/kocicka.jpg);
+    height: 1000px;
+    min-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+h2{
+  font-size: 1.5vw;
+}
